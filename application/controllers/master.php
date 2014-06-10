@@ -240,24 +240,8 @@ class Master extends CI_Controller {
 					$structure =array(
 					"merk"				=> "text",
 					"type"				=> "text",
-					"jenis"				=> "text",
 					"model"				=> "text",
 					"no_polisi"			=> "text",
-					"pemilik"			=> "text",
-					"tahun_pembuatan"	=> "text",
-					"no_rangka"			=> "text",
-					"no_mesin"			=> "text",
-					"bahan_bakar"		=> "text",
-					"no_kir"			=> "text",
-					"nomer_bbpkb"		=> "text",
-					"capacity_weight"	=> "text",
-					"expired_stnk"		=> "text",
-					"expired_ibm"		=> "text",
-					"expired_sipa"		=> "text",
-					"driver"			=> "text",
-					"company_id"		=> "text",
-					"date"				=> "text",
-					"last_modified"		=> "text",
 					"status"			=> "status_lists"
 					);
 			break;
@@ -281,11 +265,8 @@ class Master extends CI_Controller {
 					$structure	= array(
 					"merk"				=> "Merk",
 					"type"				=> "Type",
-					"jenis"				=> "Jenis",
 					"model"				=> "Model",
-					"bahan_bakar"		=> "Bahan Bakar",
-					"nomer_bbpkb"		=> "No BBPKB",
-					"driver"			=> "Driver",
+					"no_polisi"			=> "No Polisi",
 					"status"			=> "Status"
 					);
 			break;
